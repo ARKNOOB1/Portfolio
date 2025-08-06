@@ -4,9 +4,9 @@
   "description": "Modern portfolio website showcasing personal projects and experience",
   "main": "index.html",
   "scripts": {
-    "dev": "live-server --port=3000",
-    "build": "echo 'Build complete'",
-    "start": "live-server --port=3000"
+  "dev": "live-server public --port=3000",
+  "build": "echo 'Static site ready'",
+  "start": "live-server public --port=3000"
   },
   "keywords": ["portfolio", "website", "personal", "projects"],
   "author": "",
