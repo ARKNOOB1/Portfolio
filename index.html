@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포트폴리오 | 개발자</title>
+    <meta name="description" content="웹 개발자의 포트폴리오 사이트입니다.">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Portfolio</a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">홈</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">소개</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">프로젝트</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">경력</a>
+                </li>
+
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    안녕하세요, <br>
+                    <span class="highlight">피금황</span> 입니다.
+                </h1>
+                <p class="hero-description">
+                    그림그리는 것을 좋아하고, 캐릭터 디자인, <br>
+                    아이템 디자인 등을 할 수 있습니다.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">프로젝트 보기</a>
+                    <a href="#projects" class="btn btn-secondary">더 보기</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-avatar">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">소개</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>저에 대해</h3>
+                    <p>
+                        안녕하세요. 저는 피금황입니다. 
+                        그림그리는것을 좋아하고, 재미있는것을 만드는것을 좋아합니다.
+                    </p>
+                    <p>
+                        새로운 그림 기술을 배우고 적용하는 것을 즐기며, 
+                        그림은 계속해서 그려나갈 수 있는 지속력이 중요하다고 생각합니다.
+                    </p>
+                    
+                    <div class="skills">
+                        <h4>사용 가능한 프로그램</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Clip Studio Paint</span>
+                            <span class="skill-tag">Aseprite</span>
+                            <span class="skill-tag">Unity</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">1+</div>
+                        <div class="stat-label">년 경험</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">2</div>
+                        <div class="stat-label">프로젝트</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">사용 가능한 프로그램</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">프로젝트</h2>
+            <p class="section-subtitle">제가 작업한 주요 프로젝트들을 소개합니다.</p>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Lucid Nut</h3>
+                        <p>넷마블 게임아카데미 부트캠프4기때에 진행한 프로젝트로, 게임개발에서 아트쪽을 담당하여 캐릭터 디자인, 배경 디자인, 아이템 디자인, 몬스터 디자인 등을 담당하였습니다.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>신규 게임개발 프로젝트</h3>
+                        <p>현재 진행중인 프로젝트로 이번에도 아트를 맡아 캐릭터 디자인, 배경 디자인, 아이템 디자인, 차량 디자인 등을 담당하였습니다.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">경력 & 이력</h2>
+            
+            <div class="experience-content">
+                <div class="experience-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>게임 원화가</h3>
+                            <span class="timeline-date">2024.10 - 현재</span>
+                            <p>게임개발에서 아트쪽을 담당하고 있습니다. 픽셀아트에 대한 경험이 늘어나 더욱 완성도 있는 아트를 만들어 내고 있습니다. </p>
+                            <ul>
+                                <li>이전에 습득한 지식을 활용하여 더욱 질 높은 게임 아트 제작</li>
+                                <li>캐릭터 및 플레이어 UI, 아이템등을 디자인</li>
+                                <li>이번에도 추가적으로 게임내 컷신 담당</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>게임 원화가</h3>
+                            <span class="timeline-date">2024.06 - 2024.09</span>
+                            <p>게임개발에서 아트쪽을 담당했습니다. 픽셀아트의 기초를 배웠습니다.</p>
+                            <ul>
+                                <li>기초적인 프로그램 사용법 습득</li>
+                                <li>픽셀아트의 기초 배움</li>
+                                <li>픽셀아트로 다양한 게임 아트 제작</li>
+                                <li>추가적으로 게임내 컷신 제작작</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="certifications">
+                    <h3>자격증</h3>
+                    <div class="cert-grid">
+                        <div class="cert-item">
+                            <i class="fas fa-certificate"></i>
+                            <h4>정보처리기사</h4>
+                            <p>2024.07.25 취득</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Portfolio. All rights reserved.</p>
+            <p>이메일: a59114154@gmail.com</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
