@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
   "dev": "live-server public --port=3000",
-  "build": "echo 'Static site ready' --output public",
+  "build": "echo 'Static site ready' --output build",
   "start": "live-server public --port=3000"
   },
   "keywords": ["portfolio", "website", "personal", "projects"],
