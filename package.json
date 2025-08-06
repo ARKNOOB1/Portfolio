@@ -5,8 +5,9 @@
   "main": "index.html",
   "scripts": {
     "dev": "live-server --port=3000",
-    "build": "echo 'Build complete'",
+    "build": "[my-framework] build --output public",
     "start": "live-server --port=3000"
+    
   },
   "keywords": ["portfolio", "website", "personal", "projects"],
   "author": "",
